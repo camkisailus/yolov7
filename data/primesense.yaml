@@ -1,0 +1,15 @@
+# YCB Objects collected in Progress LAb
+
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+train: ./primesense/train.txt
+val: ./primesense/val.txt
+
+# number of classes
+nc: 10 #80
+
+# class names
+names: ['002_master_chef_can', '003_cracker_box', '004_sugar_box', '005_tomato_soup_can',
+        '006_mustard_bottle', '007_tuna_fish_can','009_gelatin_box', '010_potted_meat_can',
+        '025_mug', '040_large_marker']
+
+
